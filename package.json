@@ -1,0 +1,34 @@
+{
+  "name": "istanbulify",
+  "version": "0.1.0",
+  "description": "Simple transform command to instrument your source with istanbul using browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/test.js"
+  },
+  "keywords": [
+    "istanbul",
+    "browserify",
+    "coverage",
+    "instrument"
+  ],
+  "author": {
+    "name": "François de Campredon",
+    "email": "fdecampredon@kapit.fr",
+    "url": "http://francois.de-campredon.fr/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdecampredon/istanbulify.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "istanbul": "~0.2.4",
+    "esprima": "~1.0.4",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "browserify": "~3.28.1",
+    "tape": "~2.4.2"
+  }
+}
