@@ -1,7 +1,7 @@
 Istanbulify
 ===========
 
-browserify v2 plugin that allow you to instrument your source using [istanbul](https://github.com/gotwarlost/istanbul)
+browserify v2 plugin that allows you to instrument your source using [istanbul](https://github.com/gotwarlost/istanbul)
 
 Instalation:
 ============
